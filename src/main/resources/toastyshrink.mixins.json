@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "toasty.shrink.mixin",
+	"package": "toasty.toastyshrink.mixin",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
 		"ToastyShrinkMixin"
