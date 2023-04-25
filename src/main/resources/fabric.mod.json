@@ -1,26 +1,26 @@
 {
 	"schemaVersion": 1,
-	"id": "shrink",
+	"id": "toastyshrink",
 	"version": "${version}",
-	"name": "Shrink",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "ToastyShrink",
+	"description": "This is ToastyShrink, a Fabric mod to compile multiple Minecraft commands into a single command!",
 	"authors": [
-		"Me!"
+		"Joshuax8"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/joshuax8/ToastyShrink/"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/shrink/icon.png",
+	"icon": "assets/toastyshrink/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"toasty.shrink.ToastyShrink"
+			"toasty.toastyshrink.ToastyShrink"
 		]
 	},
 	"mixins": [
-		"shrink.mixins.json"
+		"toastyshrink.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.19",
