@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"toasty.shrink.ExampleMod"
+			"toasty.shrink.ToastyShrink"
 		]
 	},
 	"mixins": [
@@ -25,8 +25,7 @@
 	"depends": {
 		"fabricloader": ">=0.14.19",
 		"minecraft": "~1.16.5",
-		"java": ">=16",
-		"fabric-api": "*"
+		"java": ">=8"
 	},
 	"suggests": {
 		"another-mod": "*"

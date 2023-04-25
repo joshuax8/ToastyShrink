@@ -1,9 +1,9 @@
 {
 	"required": true,
 	"package": "toasty.shrink.mixin",
-	"compatibilityLevel": "JAVA_16",
+	"compatibilityLevel": "JAVA_8",
 	"mixins": [
-		"ExampleMixin"
+		"ToastyShrinkMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
